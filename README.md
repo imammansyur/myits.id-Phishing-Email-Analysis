@@ -38,7 +38,7 @@ Content-Type: text/html; charset="utf-8"
 Content-Transfer-Encoding: quoted-printable
 ```
 The content type set to HTML to enable the attacker to include link in a stylized button and images.  
-Then they set the encoding to quoted printable to make it harder for spam scanner to detect any link inside the email. In this case, it works by encoding the `=` into `=3D` (`3D` is the hex value of `=`) and separating the long text with `=` at the end of the lines.
+Then they set the encoding to quoted printable to make it harder for spam scanner to detect any link inside the email. In this case, it works by encoding the `=` into `=3D` (`3D` is the hex value of `=`) and separating the long text with `=` at the end of the lines.  
 <img width="609" height="189" alt="image" src="https://github.com/user-attachments/assets/1f14ed64-45fa-4a00-a11a-1136a37dc9af" />  
 Then, the content also includes an attempt to track the email receiver.
 ``` html
